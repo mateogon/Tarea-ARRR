@@ -1,0 +1,15 @@
+Hop,IP,AS,Metadata1,Metadata2,Metadata3,Metadata4
+1.0,192.168.1.1,IP Privada,IP Privada,IP Privada,IP Privada,IP Privada
+2.0,191.112.0.1,"AS7418 - TELEFONICA CHILE S.A., CL",7418,"TELEFONICA CHILE S.A., CL","Santiago, Santiago Metropolitan, Chile - (-33.4521, -70.6536) - TELEFÓNICA CHILE S.A.","(7418, 'TELEFONICA CHILE S.A.')"
+3.0,10.50.3.21,IP Privada,IP Privada,IP Privada,IP Privada,IP Privada
+4.0,10.50.3.22,IP Privada,IP Privada,IP Privada,IP Privada,IP Privada
+5.0,5.53.0.144,"AS12956 - TELXIUS TELXIUS Cable, ES",12956,"TELXIUS TELXIUS Cable, ES","Madrid, Madrid, Spain - (40.5156, -3.66234) - Telefonica Global Solutions SL","(12956, 'TELXIUS - TELEFONICA GLOBAL SOLUTIONS SL')"
+9.0,62.115.120.176,"AS1299 - TWELVE99 Arelion, fka Telia Carrier, SE",1299,"TWELVE99 Arelion, fka Telia Carrier, SE","Ashburn, Virginia, United States - (39.0438, -77.4874) - TELIANET","(1299, 'TWELVE99 - Arelion Sweden AB')"
+10.0,62.115.136.200,"AS1299 - TWELVE99 Arelion, fka Telia Carrier, SE",1299,"TWELVE99 Arelion, fka Telia Carrier, SE","New York, New York, United States - (40.7128, -74.006) - TELIANET","(1299, 'TWELVE99 - Arelion Sweden AB')"
+11.0,62.115.112.71,"AS1299 - TWELVE99 Arelion, fka Telia Carrier, SE",1299,"TWELVE99 Arelion, fka Telia Carrier, SE","New York, New York, United States - (40.7128, -74.006) - TELIANET","(1299, 'TWELVE99 - Arelion Sweden AB')"
+12.0,62.115.57.79,"AS1299 - TWELVE99 Arelion, fka Telia Carrier, SE",1299,"TWELVE99 Arelion, fka Telia Carrier, SE","New York, New York, United States - (40.7128, -74.006) - TELIANET","(1299, 'TWELVE99 - Arelion Sweden AB')"
+13.0,85.95.26.222,"AS15412 - FLAG-AS Flag Telecom Global Internet AS, GB",15412,"FLAG-AS Flag Telecom Global Internet AS, GB","West Drayton, England, United Kingdom - (51.4821, -0.44892) - FLAG Telecom Network Services External Links RIPE","(15412, 'FLAG-AS - FLAG TELECOM UK LIMITED')"
+14.0,62.216.131.30,"AS15412 - FLAG-AS Flag Telecom Global Internet AS, GB",15412,"FLAG-AS Flag Telecom Global Internet AS, GB","London, England, United Kingdom - (51.5074, -0.127758) - FLAG Telecom Network Services Global Backbone","(15412, 'FLAG-AS - FLAG TELECOM UK LIMITED')"
+15.0,62.216.128.210,"AS15412 - FLAG-AS Flag Telecom Global Internet AS, GB",15412,"FLAG-AS Flag Telecom Global Internet AS, GB","Marseille, Provence-Alpes-Côte d'Azur, France - (43.2965, 5.36978) - FLAG Telecom Network Services Global Backbone","(15412, 'FLAG-AS - FLAG TELECOM UK LIMITED')"
+16.0,85.95.25.93,"AS15412 - FLAG-AS Flag Telecom Global Internet AS, GB",15412,"FLAG-AS Flag Telecom Global Internet AS, GB","West Drayton, England, United Kingdom - (51.4821, -0.44892) - FLAG Telecom Network Services External Links RIPE","(15412, 'FLAG-AS - FLAG TELECOM UK LIMITED')"
+17.0,80.77.4.60,"AS15412 - FLAG-AS Flag Telecom Global Internet AS, GB",15412,"FLAG-AS Flag Telecom Global Internet AS, GB","Washington, District of Columbia, United States - (38.9072, -77.0369) - FLAG Telecom - Egypt","(15412, 'FLAG-AS - FLAG TELECOM UK LIMITED')"

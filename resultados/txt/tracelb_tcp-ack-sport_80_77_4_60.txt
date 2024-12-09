@@ -1,0 +1,51 @@
+list id 0, name default, descr "default"
+cycle start, list default 0, cycle 0, time Sat Dec  7 10:22:42 2024
+tracelb from 192.168.1.27 to 80.77.4.60
+ list id: 0, name: default
+ cycle id: 0
+ user-id: 0
+ start: Sat Dec  7 10:22:42 2024 901120
+ type: tcp-ack-sport 50800:33435, tos: 0x00
+ firsthop: 1, attempts: 2, confidence: 95
+ probe-size: 40, wait-probe: 0.25s, wait-timeout: 5s
+ nodec: 1, linkc: 1, probec: 38, probec_max: 50
+node 0 *
+ link * -> * hopc 3
+  probe flowid: 50800, ttl: 2, attempt: 0, tx: 1733577772.951795
+  probe flowid: 50800, ttl: 2, attempt: 1, tx: 1733577777.952082
+  probe flowid: 50801, ttl: 2, attempt: 0, tx: 1733577782.952762
+  probe flowid: 50801, ttl: 2, attempt: 1, tx: 1733577787.952778
+  probe flowid: 50802, ttl: 2, attempt: 0, tx: 1733577792.953077
+  probe flowid: 50802, ttl: 2, attempt: 1, tx: 1733577797.954134
+  probe flowid: 50803, ttl: 2, attempt: 0, tx: 1733577802.954975
+  probe flowid: 50803, ttl: 2, attempt: 1, tx: 1733577807.955079
+  probe flowid: 50804, ttl: 2, attempt: 0, tx: 1733577812.956072
+  probe flowid: 50804, ttl: 2, attempt: 1, tx: 1733577817.956956
+  probe flowid: 50805, ttl: 2, attempt: 0, tx: 1733577822.957076
+  probe flowid: 50805, ttl: 2, attempt: 1, tx: 1733577827.957762
+  probe flowid: 50800, ttl: 3, attempt: 0, tx: 1733577832.958148
+  probe flowid: 50800, ttl: 3, attempt: 1, tx: 1733577837.958814
+  probe flowid: 50801, ttl: 3, attempt: 0, tx: 1733577842.959152
+  probe flowid: 50801, ttl: 3, attempt: 1, tx: 1733577847.960079
+  probe flowid: 50802, ttl: 3, attempt: 0, tx: 1733577852.960567
+  probe flowid: 50802, ttl: 3, attempt: 1, tx: 1733577857.961085
+  probe flowid: 50803, ttl: 3, attempt: 0, tx: 1733577862.961501
+  probe flowid: 50803, ttl: 3, attempt: 1, tx: 1733577867.961889
+  probe flowid: 50804, ttl: 3, attempt: 0, tx: 1733577872.962386
+  probe flowid: 50804, ttl: 3, attempt: 1, tx: 1733577877.962927
+  probe flowid: 50805, ttl: 3, attempt: 0, tx: 1733577882.963483
+  probe flowid: 50805, ttl: 3, attempt: 1, tx: 1733577887.963881
+  probe flowid: 50800, ttl: 4, attempt: 0, tx: 1733577892.964363
+  probe flowid: 50800, ttl: 4, attempt: 1, tx: 1733577897.965001
+  probe flowid: 50801, ttl: 4, attempt: 0, tx: 1733577902.965108
+  probe flowid: 50801, ttl: 4, attempt: 1, tx: 1733577907.965886
+  probe flowid: 50802, ttl: 4, attempt: 0, tx: 1733577912.966303
+  probe flowid: 50802, ttl: 4, attempt: 1, tx: 1733577917.966668
+  probe flowid: 50803, ttl: 4, attempt: 0, tx: 1733577922.967104
+  probe flowid: 50803, ttl: 4, attempt: 1, tx: 1733577927.968058
+  probe flowid: 50804, ttl: 4, attempt: 0, tx: 1733577932.968913
+  probe flowid: 50804, ttl: 4, attempt: 1, tx: 1733577937.969695
+  probe flowid: 50805, ttl: 4, attempt: 0, tx: 1733577942.970701
+  probe flowid: 50805, ttl: 4, attempt: 1, tx: 1733577947.971513
+
+cycle stop, list default 0, cycle 0, time Sat Dec  7 10:25:52 2024

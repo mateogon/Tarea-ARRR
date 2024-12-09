@@ -1,0 +1,5 @@
+Analysis for ./analysis/130_104_228_159.pcap_ICMP.pcap - ICMP
+Total Packets: 23
+Average Packet Size: 93.65 bytes
+Average Time Difference Between Packets: 4.711282 seconds
+Packet Size Distribution: {90: 20, 118: 3}

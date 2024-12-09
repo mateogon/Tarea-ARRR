@@ -1,0 +1,5 @@
+Analysis for ./analysis/130_104_228_159.pcap_UDP.pcap - UDP
+Total Packets: 54
+Average Packet Size: 91.56 bytes
+Average Time Difference Between Packets: 2.015388 seconds
+Packet Size Distribution: {90: 51, 118: 3}

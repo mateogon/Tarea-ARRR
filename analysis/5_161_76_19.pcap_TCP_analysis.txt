@@ -1,0 +1,5 @@
+Analysis for ./analysis/5_161_76_19.pcap_TCP.pcap - TCP
+Total Packets: 63
+Average Packet Size: 102.00 bytes
+Average Time Difference Between Packets: 2.105256 seconds
+Packet Size Distribution: {102: 63}

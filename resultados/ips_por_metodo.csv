@@ -1,0 +1,16 @@
+dst,method,unique_ips_count
+185.131.204.20,icmp-echo,3
+185.131.204.20,tcp-ack-sport,3
+185.131.204.20,tcp-sport,3
+5.161.76.19,icmp-echo,3
+80.77.4.60,icmp-echo,3
+130.104.228.159,icmp-echo,2
+130.104.228.159,tcp-ack-sport,2
+130.104.228.159,tcp-sport,2
+130.104.228.159,udp-dport,2
+130.104.228.159,udp-sport,2
+185.131.204.20,udp-dport,2
+185.131.204.20,udp-sport,2
+5.161.76.19,udp-dport,2
+5.161.76.19,udp-sport,2
+80.77.4.60,udp-dport,2

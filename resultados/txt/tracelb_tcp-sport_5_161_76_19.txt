@@ -1,0 +1,51 @@
+list id 0, name default, descr "default"
+cycle start, list default 0, cycle 0, time Sat Dec  7 10:06:26 2024
+tracelb from 192.168.1.27 to 5.161.76.19
+ list id: 0, name: default
+ cycle id: 0
+ user-id: 0
+ start: Sat Dec  7 10:06:26 2024 900964
+ type: tcp-sport 41956:33435, tos: 0x00
+ firsthop: 1, attempts: 2, confidence: 95
+ probe-size: 40, wait-probe: 0.25s, wait-timeout: 5s
+ nodec: 1, linkc: 1, probec: 38, probec_max: 50
+node 0 *
+ link * -> * hopc 3
+  probe flowid: 41956, ttl: 2, attempt: 0, tx: 1733576796.952414
+  probe flowid: 41956, ttl: 2, attempt: 1, tx: 1733576801.952730
+  probe flowid: 41957, ttl: 2, attempt: 0, tx: 1733576806.953700
+  probe flowid: 41957, ttl: 2, attempt: 1, tx: 1733576811.954588
+  probe flowid: 41958, ttl: 2, attempt: 0, tx: 1733576816.954948
+  probe flowid: 41958, ttl: 2, attempt: 1, tx: 1733576821.955120
+  probe flowid: 41959, ttl: 2, attempt: 0, tx: 1733576826.956150
+  probe flowid: 41959, ttl: 2, attempt: 1, tx: 1733576831.957139
+  probe flowid: 41960, ttl: 2, attempt: 0, tx: 1733576836.957646
+  probe flowid: 41960, ttl: 2, attempt: 1, tx: 1733576841.957725
+  probe flowid: 41961, ttl: 2, attempt: 0, tx: 1733576846.958023
+  probe flowid: 41961, ttl: 2, attempt: 1, tx: 1733576851.958591
+  probe flowid: 41956, ttl: 3, attempt: 0, tx: 1733576856.959604
+  probe flowid: 41956, ttl: 3, attempt: 1, tx: 1733576861.959894
+  probe flowid: 41957, ttl: 3, attempt: 0, tx: 1733576866.960309
+  probe flowid: 41957, ttl: 3, attempt: 1, tx: 1733576871.960439
+  probe flowid: 41958, ttl: 3, attempt: 0, tx: 1733576876.960895
+  probe flowid: 41958, ttl: 3, attempt: 1, tx: 1733576881.961211
+  probe flowid: 41959, ttl: 3, attempt: 0, tx: 1733576886.961491
+  probe flowid: 41959, ttl: 3, attempt: 1, tx: 1733576891.962263
+  probe flowid: 41960, ttl: 3, attempt: 0, tx: 1733576896.962722
+  probe flowid: 41960, ttl: 3, attempt: 1, tx: 1733576901.963348
+  probe flowid: 41961, ttl: 3, attempt: 0, tx: 1733576906.963839
+  probe flowid: 41961, ttl: 3, attempt: 1, tx: 1733576911.963920
+  probe flowid: 41956, ttl: 4, attempt: 0, tx: 1733576916.964469
+  probe flowid: 41956, ttl: 4, attempt: 1, tx: 1733576921.964910
+  probe flowid: 41957, ttl: 4, attempt: 0, tx: 1733576926.964945
+  probe flowid: 41957, ttl: 4, attempt: 1, tx: 1733576931.965147
+  probe flowid: 41958, ttl: 4, attempt: 0, tx: 1733576936.966143
+  probe flowid: 41958, ttl: 4, attempt: 1, tx: 1733576941.967005
+  probe flowid: 41959, ttl: 4, attempt: 0, tx: 1733576946.967016
+  probe flowid: 41959, ttl: 4, attempt: 1, tx: 1733576951.967984
+  probe flowid: 41960, ttl: 4, attempt: 0, tx: 1733576956.968584
+  probe flowid: 41960, ttl: 4, attempt: 1, tx: 1733576961.969067
+  probe flowid: 41961, ttl: 4, attempt: 0, tx: 1733576966.970124
+  probe flowid: 41961, ttl: 4, attempt: 1, tx: 1733576971.971020
+
+cycle stop, list default 0, cycle 0, time Sat Dec  7 10:09:36 2024

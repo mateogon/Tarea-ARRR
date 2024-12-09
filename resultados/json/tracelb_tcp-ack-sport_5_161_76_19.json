@@ -1,0 +1,3 @@
+{"type":"cycle-start", "list_name":"default", "id":0, "hostname":"LAPTOP", "start_time":1733581603}
+{"type":"tracelb", "version":"0.1", "userid":0, "method":"tcp-ack-sport", "src":"192.168.1.27", "dst":"5.161.76.19", "sport":61882, "dport":33435, "start":{"sec":1733581603, "usec":768113, "ftime":"2024-12-07 11:26:43"}, "probe_size":40, "firsthop":1, "attempts":2, "confidence":95, "tos":0, "gaplimit":3, "wait_timeout":5, "wait_probe":25, "probec":38, "probec_max":50, "nodec":1, "linkc":1, "nodes":[{"addr":"*", "linkc":1, "links":[[{"addr":"*"}],[{"addr":"*"}],[{"addr":"*"}]]}]}
+{"type":"cycle-stop", "list_name":"default", "id":0, "hostname":"LAPTOP", "stop_time":1733581793}

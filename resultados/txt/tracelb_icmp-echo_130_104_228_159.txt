@@ -1,0 +1,113 @@
+list id 0, name default, descr "default"
+cycle start, list default 0, cycle 0, time Sat Dec  7 09:47:03 2024
+tracelb from 192.168.1.27 to 130.104.228.159
+ list id: 0, name: default
+ cycle id: 0
+ user-id: 0
+ start: Sat Dec  7 09:47:03 2024 025782
+ type: icmp-echo id: 62632, tos: 0x00
+ firsthop: 1, attempts: 2, confidence: 95
+ probe-size: 44, wait-probe: 0.25s, wait-timeout: 5s
+ nodec: 2, linkc: 2, probec: 50, probec_max: 50
+node 0 192.168.1.1, q-ttl 1
+ link 192.168.1.1 -> 191.112.0.1 hopc 1
+  probe flowid: 1, ttl: 2, attempt: 0, tx: 1733575623.276882
+   reply from: 191.112.0.1, rtt: 0.005744, ttl: 254, ipid: 0x03ae
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 2, ttl: 2, attempt: 0, tx: 1733575623.527025
+   reply from: 191.112.0.1, rtt: 0.004391, ttl: 254, ipid: 0x03b2
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 3, ttl: 2, attempt: 0, tx: 1733575623.777826
+   reply from: 191.112.0.1, rtt: 0.004684, ttl: 254, ipid: 0x03b3
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 4, ttl: 2, attempt: 0, tx: 1733575624.027865
+   reply from: 191.112.0.1, rtt: 0.004853, ttl: 254, ipid: 0x03ba
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 5, ttl: 2, attempt: 0, tx: 1733575624.278073
+   reply from: 191.112.0.1, rtt: 0.003852, ttl: 254, ipid: 0x03bf
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 6, ttl: 2, attempt: 0, tx: 1733575624.528280
+   reply from: 191.112.0.1, rtt: 0.004476, ttl: 254, ipid: 0x03c7
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+node 1 191.112.0.1, q-ttl 1
+ link 191.112.0.1 -> * hopc 3
+  probe flowid: 1, ttl: 3, attempt: 0, tx: 1733575624.779148
+   reply from: 10.50.3.9, rtt: 0.003196, ttl: 253, ipid: 0x0292
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 2, ttl: 3, attempt: 0, tx: 1733575625.029716
+   reply from: 10.50.3.9, rtt: 0.012818, ttl: 253, ipid: 0x02d4
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 3, ttl: 3, attempt: 0, tx: 1733575625.279815
+   reply from: 10.50.3.21, rtt: 0.003584, ttl: 253, ipid: 0x0317
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 4, ttl: 3, attempt: 0, tx: 1733575625.530757
+   reply from: 10.50.3.9, rtt: 0.004207, ttl: 253, ipid: 0x035e
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 5, ttl: 3, attempt: 0, tx: 1733575625.781319
+   reply from: 10.50.3.9, rtt: 0.004513, ttl: 253, ipid: 0x03a1
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 6, ttl: 3, attempt: 0, tx: 1733575626.032189
+   reply from: 10.50.3.9, rtt: 0.003742, ttl: 253, ipid: 0x03ea
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 7, ttl: 3, attempt: 0, tx: 1733575626.283121
+   reply from: 10.50.3.9, rtt: 0.004388, ttl: 253, ipid: 0x0029
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 8, ttl: 3, attempt: 0, tx: 1733575626.533877
+   reply from: 10.50.3.21, rtt: 0.012350, ttl: 253, ipid: 0x0068
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 9, ttl: 3, attempt: 0, tx: 1733575626.784579
+   reply from: 10.50.3.9, rtt: 0.003742, ttl: 253, ipid: 0x00ad
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 10, ttl: 3, attempt: 0, tx: 1733575627.034616
+   reply from: 10.50.3.21, rtt: 0.003337, ttl: 253, ipid: 0x00eb
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 11, ttl: 3, attempt: 0, tx: 1733575627.285298
+   reply from: 10.50.3.9, rtt: 0.003991, ttl: 253, ipid: 0x0122
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 1, ttl: 3, attempt: 0, tx: 1733575627.535634
+   reply from: 10.50.3.21, rtt: 0.004315, ttl: 253, ipid: 0x0178
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 1, ttl: 4, attempt: 0, tx: 1733575627.786306
+   reply from: 10.50.3.10, rtt: 0.003956, ttl: 252, ipid: 0x0047
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 2, ttl: 4, attempt: 0, tx: 1733575628.036555
+   reply from: 10.50.3.10, rtt: 0.003173, ttl: 252, ipid: 0x00a0
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 3, ttl: 4, attempt: 0, tx: 1733575628.287058
+  probe flowid: 3, ttl: 4, attempt: 1, tx: 1733575633.291104
+  probe flowid: 4, ttl: 4, attempt: 0, tx: 1733575638.295154
+  probe flowid: 4, ttl: 4, attempt: 1, tx: 1733575643.299216
+   reply from: 10.50.3.10, rtt: 0.004239, ttl: 252, ipid: 0x0018
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 5, ttl: 4, attempt: 0, tx: 1733575643.549805
+   reply from: 10.50.3.10, rtt: 0.004024, ttl: 252, ipid: 0x0058
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 6, ttl: 4, attempt: 0, tx: 1733575643.800169
+   reply from: 10.50.3.10, rtt: 0.004230, ttl: 252, ipid: 0x00a4
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 7, ttl: 4, attempt: 0, tx: 1733575644.050744
+   reply from: 10.50.3.10, rtt: 0.004093, ttl: 252, ipid: 0x0109
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 1, ttl: 5, attempt: 0, tx: 1733575644.301186
+  probe flowid: 1, ttl: 5, attempt: 1, tx: 1733575649.305228
+  probe flowid: 2, ttl: 5, attempt: 0, tx: 1733575654.309281
+  probe flowid: 2, ttl: 5, attempt: 1, tx: 1733575659.313333
+  probe flowid: 3, ttl: 5, attempt: 0, tx: 1733575664.317394
+  probe flowid: 3, ttl: 5, attempt: 1, tx: 1733575669.321444
+   reply from: 213.140.39.160, rtt: 0.006321, ttl: 250, ipid: 0x0000
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 4, ttl: 5, attempt: 0, tx: 1733575669.572113
+  probe flowid: 4, ttl: 5, attempt: 1, tx: 1733575674.576152
+   reply from: 213.140.39.160, rtt: 0.005904, ttl: 250, ipid: 0x0000
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 5, ttl: 5, attempt: 0, tx: 1733575674.826347
+  probe flowid: 5, ttl: 5, attempt: 1, tx: 1733575679.830403
+   reply from: 213.140.39.160, rtt: 0.005515, ttl: 250, ipid: 0x0000
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 6, ttl: 5, attempt: 0, tx: 1733575680.081268
+   reply from: 213.140.39.160, rtt: 0.006218, ttl: 250, ipid: 0x0000
+     icmp: 11/0, q-tos: 0x00, q-ttl: 1
+  probe flowid: 7, ttl: 5, attempt: 0, tx: 1733575680.331823
+  probe flowid: 7, ttl: 5, attempt: 1, tx: 1733575685.331831
+
+cycle stop, list default 0, cycle 0, time Sat Dec  7 09:48:45 2024

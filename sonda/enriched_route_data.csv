@@ -1,0 +1,18 @@
+Hop,IP,ASN,Occurrences,Organization,GeoIP,Network Type
+172.17.0.1,172.17.0.1,Private IP,3,Private Network,Private IP,Private Network
+192.168.1.1,192.168.1.1,Private IP,3,Private Network,Private IP,Private Network
+191.112.0.1,191.112.0.1,7418,3,"TELEFONICA CHILE S.A., CL","Chile, Santiago Metropolitan, Santiago - (-33.4521, -70.6536)",General Network
+10.50.3.21,10.50.3.21,Private IP,2,Private Network,Private IP,Private Network
+10.50.3.9,10.50.3.9,Private IP,1,Private Network,Private IP,Private Network
+10.50.3.22,10.50.3.22,Private IP,3,Private Network,Private IP,Private Network
+5.53.0.144,5.53.0.144,12956,2,"TELXIUS TELXIUS Cable, ES","Spain, Madrid, Madrid - (40.5156, -3.66234)",General Network
+213.140.43.234,213.140.43.234,12956,2,"TELXIUS TELXIUS Cable, ES","Spain, Madrid, Madrid - (40.5149, -3.66524)",General Network
+62.115.120.176,62.115.120.176,1299,3,"TWELVE99 Arelion, fka Telia Carrier, SE","United States, Virginia, Ashburn - (39.0438, -77.4874)",General Network
+62.115.136.200,62.115.136.200,1299,1,"TWELVE99 Arelion, fka Telia Carrier, SE","United States, New York, New York - (40.7128, -74.006)",General Network
+62.115.112.71,62.115.112.71,1299,3,"TWELVE99 Arelion, fka Telia Carrier, SE","United States, New York, New York - (40.7128, -74.006)",General Network
+62.115.57.79,62.115.57.79,1299,3,"TWELVE99 Arelion, fka Telia Carrier, SE","United States, New York, New York - (40.7128, -74.006)",General Network
+85.95.26.222,85.95.26.222,15412,3,"FLAG-AS Flag Telecom Global Internet AS, GB","India, Tamil Nadu, Chennai - (13.0843, 80.2705)",ISP Network
+62.216.128.214,62.216.128.214,15412,3,"FLAG-AS Flag Telecom Global Internet AS, GB","France, Provence-Alpes-Côte d'Azur, Marseille - (43.2965, 5.36978)",ISP Network
+62.216.131.154,62.216.131.154,15412,3,"FLAG-AS Flag Telecom Global Internet AS, GB","United Kingdom, England, London - (51.5074, -0.127758)",ISP Network
+85.95.25.93,85.95.25.93,15412,3,"FLAG-AS Flag Telecom Global Internet AS, GB","United Kingdom, England, West Drayton - (51.4821, -0.44892)",ISP Network
+80.77.4.60,80.77.4.60,15412,3,"FLAG-AS Flag Telecom Global Internet AS, GB","United States, District of Columbia, Washington - (38.9072, -77.0369)",ISP Network

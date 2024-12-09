@@ -1,0 +1,51 @@
+list id 0, name default, descr "default"
+cycle start, list default 0, cycle 0, time Sat Dec  7 11:26:43 2024
+tracelb from 192.168.1.27 to 5.161.76.19
+ list id: 0, name: default
+ cycle id: 0
+ user-id: 0
+ start: Sat Dec  7 11:26:43 2024 768113
+ type: tcp-ack-sport 61882:33435, tos: 0x00
+ firsthop: 1, attempts: 2, confidence: 95
+ probe-size: 40, wait-probe: 0.25s, wait-timeout: 5s
+ nodec: 1, linkc: 1, probec: 38, probec_max: 50
+node 0 *
+ link * -> * hopc 3
+  probe flowid: 61882, ttl: 2, attempt: 0, tx: 1733581613.820391
+  probe flowid: 61882, ttl: 2, attempt: 1, tx: 1733581618.820785
+  probe flowid: 61883, ttl: 2, attempt: 0, tx: 1733581623.821085
+  probe flowid: 61883, ttl: 2, attempt: 1, tx: 1733581628.821640
+  probe flowid: 61884, ttl: 2, attempt: 0, tx: 1733581633.822598
+  probe flowid: 61884, ttl: 2, attempt: 1, tx: 1733581638.822675
+  probe flowid: 61885, ttl: 2, attempt: 0, tx: 1733581643.822794
+  probe flowid: 61885, ttl: 2, attempt: 1, tx: 1733581648.823576
+  probe flowid: 61886, ttl: 2, attempt: 0, tx: 1733581653.824250
+  probe flowid: 61886, ttl: 2, attempt: 1, tx: 1733581658.824665
+  probe flowid: 61887, ttl: 2, attempt: 0, tx: 1733581663.825020
+  probe flowid: 61887, ttl: 2, attempt: 1, tx: 1733581668.826032
+  probe flowid: 61882, ttl: 3, attempt: 0, tx: 1733581673.827304
+  probe flowid: 61882, ttl: 3, attempt: 1, tx: 1733581678.828078
+  probe flowid: 61883, ttl: 3, attempt: 0, tx: 1733581683.830742
+  probe flowid: 61883, ttl: 3, attempt: 1, tx: 1733581688.830984
+  probe flowid: 61884, ttl: 3, attempt: 0, tx: 1733581693.831740
+  probe flowid: 61884, ttl: 3, attempt: 1, tx: 1733581698.831883
+  probe flowid: 61885, ttl: 3, attempt: 0, tx: 1733581703.832536
+  probe flowid: 61885, ttl: 3, attempt: 1, tx: 1733581708.833379
+  probe flowid: 61886, ttl: 3, attempt: 0, tx: 1733581713.833979
+  probe flowid: 61886, ttl: 3, attempt: 1, tx: 1733581718.834333
+  probe flowid: 61887, ttl: 3, attempt: 0, tx: 1733581723.835066
+  probe flowid: 61887, ttl: 3, attempt: 1, tx: 1733581728.835968
+  probe flowid: 61882, ttl: 4, attempt: 0, tx: 1733581733.836226
+  probe flowid: 61882, ttl: 4, attempt: 1, tx: 1733581738.836805
+  probe flowid: 61883, ttl: 4, attempt: 0, tx: 1733581743.837751
+  probe flowid: 61883, ttl: 4, attempt: 1, tx: 1733581748.838337
+  probe flowid: 61884, ttl: 4, attempt: 0, tx: 1733581753.838798
+  probe flowid: 61884, ttl: 4, attempt: 1, tx: 1733581758.838844
+  probe flowid: 61885, ttl: 4, attempt: 0, tx: 1733581763.839319
+  probe flowid: 61885, ttl: 4, attempt: 1, tx: 1733581768.839537
+  probe flowid: 61886, ttl: 4, attempt: 0, tx: 1733581773.840066
+  probe flowid: 61886, ttl: 4, attempt: 1, tx: 1733581778.840254
+  probe flowid: 61887, ttl: 4, attempt: 0, tx: 1733581783.841094
+  probe flowid: 61887, ttl: 4, attempt: 1, tx: 1733581788.841690
+
+cycle stop, list default 0, cycle 0, time Sat Dec  7 11:29:53 2024

@@ -1,0 +1,5 @@
+Analysis for ./analysis/185_131_204_20.pcap_ICMP.pcap - ICMP
+Total Packets: 47
+Average Packet Size: 91.79 bytes
+Average Time Difference Between Packets: 2.169491 seconds
+Packet Size Distribution: {90: 44, 118: 3}
